@@ -1,0 +1,20 @@
+
+
+.navigation {
+    background: #FFFFFF;
+}
+
+.kontakt {
+    background: #20242D;
+    color: #FFFFFF;
+}
+
+.photopanel {
+    background-image: url(img/photopanel.jpg);
+    color: #FFFFFF;
+
+}
+
+.down-navigation {
+    background: #20242D;
+}
