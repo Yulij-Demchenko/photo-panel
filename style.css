@@ -1,19 +1,198 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
 
-.navigation {
-    background: #FFFFFF;
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    position: absolute;
+}
+
+header {
+
+    width: 1600px;
+    
+    left: 0px;
+    top: 4px;
+    
+   
 }
 
 .kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 34px;
     background: #20242D;
     color: #FFFFFF;
+    
 }
+.kontakt address{
+    margin-right: 920px;
+    margin-left: 50px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.kontakt div{
+    margin-right: 50px;
+}
+.kontakt a {
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.navigation {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #EFF1F5;
+    box-sizing: border-box;
+    width: 1600px;
+    height: 57px;
+    
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    margin-left: 865px;
+    margin-right: 50px;
+
+    
+    
+}
+
+
+.navigation ul li {
+    float: right;
+    
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+    
+}
+
+
+
+.navigation img {
+    
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.navigation li a {
+
+    color:  #20242D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
 
 .photopanel {
-    background-image: url(img/photopanel.jpg);
-    color: #FFFFFF;
-
+    width: 1600px;
+    height: 844px;
+    background-image: url(/img/photopanel.jpg);
+    
 }
+
+h1 {
+    position: absolute;
+    width: 961px;
+    height: 111px;
+    left: 320px;
+    top: 362px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.services {
+    position: absolute;
+    width: 508px;
+    height: 48px;
+    left: 546px;
+    top: 489px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.money {
+    position: absolute;
+    width: 187px;
+    height: 49px;
+    left: 706px;
+    top: 596px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background: #FF7129;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+
+    color: #FFFFFF;
+}
+
+
 
 .down-navigation {
     background: #20242D;
