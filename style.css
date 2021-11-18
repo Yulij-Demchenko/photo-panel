@@ -32,11 +32,11 @@ body {
 header {
 
     width: 1600px;
+}
+
+.mail {
+    margin-right: 55px;
     
-    left: 0px;
-    top: 4px;
-    
-   
 }
 
 .kontakt {
@@ -49,8 +49,8 @@ header {
     color: #FFFFFF;
     
 }
-.kontakt address{
-    margin-right: 920px;
+.location {
+    margin-right: 840px;
     margin-left: 50px;
 
     font-family: Gilroy;
@@ -63,7 +63,8 @@ header {
 }
 
 .kontakt div{
-    margin-right: 50px;
+    margin-right: 60px;
+    
 }
 .kontakt a {
     
@@ -88,11 +89,19 @@ header {
     
 }
 
+.list-one {
+    color: black;
+}
+
+.home-page {
+    color: #FF7129;
+}
+
 
 .navigation ul {
     list-style-type: none;
-    margin-left: 865px;
-    margin-right: 50px;
+    margin-left: 765px;
+    
 
     
     
@@ -113,19 +122,23 @@ header {
 
 
 
-.navigation img {
+.logo {
     
     margin-top: 10px;
     margin-left: 50px;
 }
 
+
+
 .navigation li a {
 
-    color:  #20242D;
+    
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px;
     text-decoration: none;
 }
+
+
 
 
 
