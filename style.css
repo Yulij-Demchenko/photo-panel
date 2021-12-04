@@ -125,7 +125,7 @@ header {
 .logo {
     
     margin-top: 10px;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 
@@ -228,7 +228,7 @@ h1 {
     text-align: center;
 
     background: #FF7129;
-    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+    
 
     color: #FFFFFF;
     z-index: 1;
@@ -357,21 +357,79 @@ h2.title {
     background: #20242D;
 
     position: absolute;
-    left: 0%;
-    right: 0%;
+    width: 100%;
+    
     top: 1700px;
     
 }
 
+.footer-logo {
+    padding-left: 50px;
+    margin-top: 76px;
+    
+
+}
+
 .lower-menu {
     display: flex;
-    
+    margin-left: 300px;
+    margin-top: 66px;
     list-style-type: none;
+    align-items: center;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
 
+    
+
+}
+
+.list-end{
+    margin-left:60px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+
+}
+
+button.button-thone {
+    margin-left: 200px;
+    background: #20242D;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 187px;
+    height: 49px;
+
+    box-shadow: 0px 0px 0px 1px #FF7129;
 }
 
 .the-end{
     display: flex;
     list-style-type: none;
+    border-top: 1px solid#7B7E85;
+    margin-top: 60px;
+    margin-left: -130px;
+    margin-right: -10px;
+    padding-left: 0;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    }
+
+.end{
+    text-decoration: none;
+    color: #7B7E85;
 }
 
