@@ -275,6 +275,8 @@ h1 {
 
 .your-home {
     display: flex;
+    width: 1600px;
+    height: 870px;
 }
 
 .house {
@@ -359,7 +361,7 @@ h2.title {
     position: absolute;
     width: 100%;
     
-    top: 1700px;
+    margin-top: 0;
     
 }
 
@@ -433,3 +435,78 @@ button.button-thone {
     color: #7B7E85;
 }
 
+
+
+
+
+.about-house{
+    width: 1600px;
+    height: 350px;
+    background-image: url(/img/roof-us.jpg);
+}
+
+.about-house:after {
+    content: "";
+    
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3);
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
+.about{
+    position: absolute;
+    width: 313px;
+    height: 116px;
+    left: 173px;
+    top: 142px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 116px;
+
+    opacity: 0.3;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.o-nas{
+    position: absolute;
+    width: 130px;
+    height: 47px;
+    left: 200px;
+    top: 255px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+
+    color: #FFFFFF;
+
+    border-left: 1px solid #FF7129;
+    padding-left: 15px;
+}
+
+.about-block{
+    width: 1600px;
+    height: 450px;
+}
+
+
+.back-solar-about{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    left: 0px;
+    top: 562px;
+}
