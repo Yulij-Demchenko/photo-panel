@@ -678,6 +678,79 @@ button.button-thone {
 }
 
 
+.posit-kontakt{
+    width: 1600px;
+    height: 642px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.element-kontakts{
+    display: block;
+    margin-top: 178px;
+    margin-left: 205px;
+
+}
+
+.el-k{
+    margin-bottom: 50px;
+}
+
+.text-p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+}
+
+.address-k{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+    padding-left: 13px;
+
+}
+
+.mail-k{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+    padding-left: 13px;
+}
+
+.tel-k{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+    padding-left: 13px;
+}
+
+
+
+
+.big-map{
+    margin-top: 100px;
+}
+
+
+
+
+
 
 
 
