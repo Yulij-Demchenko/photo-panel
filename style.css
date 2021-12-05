@@ -534,3 +534,151 @@ button.button-thone {
     width: 534px;
     margin-left: 70px;
 }
+
+
+
+.projekt-house{
+    width: 1600px;
+    height: 200px;
+}
+
+.gallery{
+    position: absolute;
+    width: 398px;
+    height: 116px;
+    left: 174px;
+    top: 70px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 116px;
+    
+    opacity: 0.3;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #20242D;
+}
+
+.projekty{
+    position: absolute;
+    width: 181px;
+    height: 47px;
+    left: 205px;
+    top: 180px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+
+    color: #20242D;
+
+    border-left: 1px solid #FF7129;
+    padding-left: 15px;
+
+}
+
+.projekt-img{
+    width: 1600px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+    .roof-red-1{
+        opacity: 0.5;
+}
+
+.roof-red{
+    margin-left: 155px;
+}
+
+.roof-red-2{
+    margin-left: 155px;
+    opacity: 0.5;
+}
+
+.previous-round{
+    text-decoration: none;
+    padding: 0px 26px 0px 23px;
+    background-color: #FF7129;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-family:  Gilroy;   
+    font-size: 60px;
+}
+
+.previous-round:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.left-arrow{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 200px;
+    top: 569px;
+}
+
+.next-round{
+    text-decoration: none;
+    padding: 0px 23px 0px 26px;
+    background-color: #FF7129;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-family:  Gilroy;   
+    font-size: 60px;
+
+}
+
+.right-arrow{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1350px;
+    top: 569px;
+}
+
+.next-round:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.num-one{
+    position: absolute;
+    width: 9px;
+    height: 24px;
+    left: 786px;
+    top: 861px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.num-big{
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    left: 803px;
+    top: 861px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7E85;
+}
+
+
+
+
+
+
