@@ -39,6 +39,7 @@ header {
     
 }
 
+
 .kontakt {
     display: flex;
     justify-content: center;
@@ -509,4 +510,27 @@ button.button-thone {
     height: 550px;
     left: 0px;
     top: 562px;
+}
+
+.text-block{
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    position: absolute;
+    display: flex;
+    left: 200px;
+    top: 500px;
+}
+
+.first-two-parag{
+    width: 530px;
+}
+
+.last-paragraph{
+    width: 534px;
+    margin-left: 70px;
 }
