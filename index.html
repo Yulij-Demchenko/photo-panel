@@ -65,8 +65,10 @@
                 <h1 class="energy">ENERGY</h1>
                 <h1>Panele Fotowoltaiczne</h1>
                 <p class="services">Kompleksowe usługi w zakresie montażu i podłączenia paneli słonecznych.</p>
-                <button class="money">Obliczyć koszt</button>
-                <img class="scroll" src="img/scroll.svg" alt="">
+                <form action="#popup1">
+                    <button class="money">Obliczyć koszt</button>
+                </form>    
+                <a href="instalacja.html"><img class="scroll" src="img/scroll.svg" alt=""></a>
             </div>
         </section>
         <section class="your-home">
@@ -152,5 +154,59 @@
         </div>
     </footer>
     
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>CALCULATOR</h2>
+            <h3>Obliczyć koszt</h3>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.
+            </div>
+            <div>
+                <div class="text-info-in">
+                    <span class="text-left">Roczne zużycie energii elektrycznej</span>
+                    <div>
+                        <div class="tooltip">
+                            <img src="img/i.png" alt="">
+                            <span class="tooltiptext">Istnieją trzy główne typy paneli słonecznych: monokrystaliczne 
+                                krzemowe panele słoneczne, polikrystaliczne krzemowe panele 
+                                słoneczne i cienkowarstwowe ogniwa słoneczne. Istnieją trzy główne 
+                                typy paneli słonecznych: monokrystaliczne krzemowe panele.
+                            </span>
+                        </div>
+                    </div>    
+                    <span class="text-number">42 200 kWh</span>
+                </div>
+                <div>
+                    <img class="scale-one" src="img/Rectangle30.png" alt="">
+                    <img class="scale-two" src="img/Rectangle31.png" alt="">
+                    <img class="scale-three" src="img/Ellipse8.png" alt="">
+                    <img class="scale-four" src="img/Ellipse7.png" alt="">
+                </div>
+                <div class="under-scale">
+                    <div>
+                        <span class="text-left">Strona świata</span>
+                        <div class="kaput">
+                            <span class="kaput-text">Wybierz z listy</span>
+                            <img class="kaput-imeg" src="img/vector-down.png" alt="">
+                        </div>
+                    </div>
+                    <div>   
+                        <span class="text-left">Materiał dachu</span>
+                        <div class="kaput">
+                            <span class="kaput-text">Wybierz z listy</span>
+                            <img class="kaput-imeg" src="img/vector-down.png" alt="">             
+                        </div>
+                    </div>     
+                </div>
+                <form action="instalacja.html">
+                    <button class="money-two">Obliczyć koszt</button>
+                </form>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 </body>
 </html>

@@ -961,6 +961,247 @@ a{
 
 
 
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 800px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin: 0;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 116px;
+
+    opacity: 0.1;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #20242D;
+}
+
+.popup h3 {
+    margin-top: -45px;
+    margin-left: 30px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+    border-left: 1px solid #FF7129;
+    padding-left: 15px;
+}
+
+
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+.popup .content {
+    margin-top: -30px;
+    margin-left: 30px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+
+
+.text-info-in{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: -210px;
+    
+}
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 414px;
+    background-color: #FFFFFF;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7E85;
+    
+    border-radius: 6px;
+    padding: 15px 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -22px;
+
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.11);
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    
+}
+
+.text-left{
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #7B7E85;
+}
+
+.text-number{
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+
+.scale-one{
+    position: relative;
+    margin: 30px 30px;
+
+}
+
+.scale-two{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -498px;
+    width: 530px;
+    height: 6px;
+}
+
+.scale-three{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -515px;
+    
+}
+
+.scale-four{
+    position: absolute;
+    margin-left: -490px;
+    margin-top: 29px;
+}
+
+.under-scale{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.money-two {
+    
+    width: 187px;
+    height: 49px;
+    margin: 30px 304px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background: #FF7129;
+    
+
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.kaput{
+    border: 1px solid #E0E0E0;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+    width: 327px;
+    height: 33px;
+    padding-top: 14px;
+}
+
+.kaput-text{
+    margin-left: 24px;
+}
+
+.kaput-imeg{
+    position: relative;
+    margin-left: 165px;
+}
+
+
+
+
+
 
 
 
