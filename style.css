@@ -338,8 +338,8 @@ h2.title {
     font-size: 96px;
     line-height: 116px;
 
-    opacity: 0.2;
-
+    opacity: 0.3;
+    z-index: -1;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #20242D;
 }
@@ -1030,7 +1030,7 @@ a{
 }
 
 .popup .close:hover {
-    color: #06D85F;
+    color: #FF7129;
 }
 .popup .content {
     margin-top: -30px;
