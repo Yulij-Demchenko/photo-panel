@@ -135,7 +135,9 @@
                         </a>
                     </li>
                     <li>
-                        <button class="button-thone">Oddzwoń</button>
+                        <form action="#popup4">
+                            <button class="button-thone">Oddzwoń</button>
+                        </form>    
                     </li>
                 </ul>
                 <ul class="the-end">
@@ -199,13 +201,74 @@
                         </div>
                     </div>     
                 </div>
-                <form action="instalacja.html">
+                <form action="#popup2">
                     <button class="money-two">Obliczyć koszt</button>
                 </form>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popup2">
+            <div class="hat">
+                <p class="poph2">Przybliżony koszt:</p>
+                <p class="poph3">40 000 zł</p>
+                <a class="close2" href="#">&times;</a>
+                <form action="instalacja.html">
+                    <button class="money-three">Przeliczyć</button>
+                </form>
+            </div>
+            <div>
+                <p class="par1">Jakieś pytania?</p>
+                <p class="par2">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje 
+                    pytania
+                </p>
+            </div>
+            <div>
+                <form class="for-input" action="#popup3">
+                    <label class="fname" for="fname">Twoje imię</label><br><br>
+                    <input class="ftext" type="text" id="fname" name="fname" placeholder="Wprowadź swoje imię"><br><br>
+                    <label class="femail" for="email">E-mail</label><br><br>
+                    <input class="lemail" type="email" id="email" name="email" placeholder="Wprowadź mail"><br><br>
+                    <label class="fphone" for="phone">Telefon</label><br><br>
+                    <input class="ftel" type="tel" id="phone" name="phone" placeholder="Wprowadź telefon">
+                    <input class="money-four" type="submit" value="Wysłać prośbę">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup3">
+            <div>
+                <img class="check-mar" src="img/check-mark .svg" alt="">
+                <p class="pop-p2">Dziękuję za twoją prośbę</p>
+                <p class="pop-p3">Nasz menedżer wkrótce się z Tobą skontaktuje</p>
+                <a class="close2" href="#">&times;</a>
+                <form action="index.html">
+                    <button class="money-five">Ok</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup4" class="overlay">
+        <div class="popup4">
+            <div>
+                <p class="p-p1">CALLBACK</p>
+                <p class="p-p2">Oddzwoń</p>
+                <p class="p-p3">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje 
+                    pytania.
+                </p>
+                <a class="close" href="#">&times;</a>
+            </div>
+            <form class="for-input" action="#">
+                <label class="fname" for="fname">Twoje imię</label><br><br>
+                <input class="ftext" type="text" id="fname" name="fname" placeholder="Wprowadź swoje imię"><br>
+                <label class="phone4" for="phone">Telefon</label><br><br>
+                <input class="tel4" type="tel" id="phone" name="phone" placeholder="Wprowadź telefon"><br>
+                <input class="money-six" type="submit" value="Zadzwoń">
+            </form>
         </div>
     </div>
 </body>

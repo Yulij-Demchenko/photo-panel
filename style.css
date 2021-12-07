@@ -971,6 +971,7 @@ a{
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    z-index: 1;
 }
 
 .overlay:target {
@@ -985,7 +986,7 @@ a{
     border-radius: 5px;
     width: 800px;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 0s ease-in-out;
 }
 
 .popup h2 {
@@ -1018,7 +1019,7 @@ a{
 
 
 
-.popup .close {
+.close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -1029,7 +1030,7 @@ a{
     color: #333;
 }
 
-.popup .close:hover {
+.close:hover {
     color: #FF7129;
 }
 .popup .content {
@@ -1197,6 +1198,324 @@ a{
     position: relative;
     margin-left: 165px;
 }
+
+
+
+.popup2 {
+    margin: 70px auto;
+    
+    background: #fff;
+    border-radius: 5px;
+    width: 800px;
+    position: relative;
+    transition: all 0s ease-in-out;
+}
+
+.close2 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.close2:hover {
+    color: #ffffff;
+}
+
+.hat {
+    width: 800px;
+    height: 220px;
+    background: #FF7129;
+    transition: all 0s ease-in-out;
+}
+
+.poph2 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:  #FFFFFF;
+}
+
+.poph3 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 90px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color:  #FFFFFF;
+}
+
+.money-three {
+    position: absolute;
+    width: 187px;
+    height: 49px;
+    margin: 90px 560px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background:  #FFFFFF;
+    
+
+    color:  #FF7129;
+    z-index: 1;
+}
+
+
+.par1 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #20242D;
+    border-left: 1px solid #FF7129;
+    padding-left: 15px;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.par2 {
+    width: 690px;
+    margin-left: 50px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+
+.for-input {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.fname, .femail, .fphone {
+    margin-bottom: 10px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;
+}
+
+.ftext, .lemail, .ftel {
+    height: 50px;
+    width: 300px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+    padding-left: 25px;
+}
+
+.femail, .lemail {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: -114px;
+}
+
+.fphone, .ftel {
+    position: absolute;
+    margin-top: -75px;
+
+}
+
+.money-four {
+    position: absolute;
+    width: 187px;
+    height: 49px;
+    margin: -75px 515px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background:  #FF7129;
+    
+
+    color:  #ffffff;
+    z-index: 1;
+}
+
+.popup3{
+    margin: 70px auto;
+    
+    background: #FF7129;
+    border-radius: 5px;
+    width: 800px;
+    position: relative;
+    transition: all 0s ease-in-out;
+}
+
+.check-mar{
+    margin: 90px 350px 0;
+}
+
+.pop-p2, .pop-p3{
+    font-family: Gilroy;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.pop-p2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+
+    margin: 25px 122px 0;
+}
+
+.pop-p3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: 15px 230px 0;
+}
+
+.money-five {
+    width: 187px;
+    height: 49px;
+    margin: 50px 305px 70px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background:  #ffffff;
+    
+
+    color:  #FF7129;
+    z-index: 1;
+
+}
+
+
+.popup4{
+    margin: 70px auto;
+    padding-top: 1px;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 800px;
+    position: relative;
+    transition: all 0s ease-in-out;
+    
+}
+
+.p-p1, .p-p2, .p-p3 {
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+.p-p1 {
+    margin: 40px 30px 0;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 116px;
+
+    opacity: 0.1;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #20242D;
+}
+
+.p-p2 {
+    position: absolute;
+    margin: -50px 50px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+    border-left: 1px solid #FF7129;
+    padding-left: 15px;
+}
+
+.p-p3 {
+    width: 665px;
+    margin: 20px 50px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    }
+
+
+.phone4 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;
+}
+
+.tel4 {
+    height: 50px;
+    width: 300px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+    padding-left: 25px;
+}
+
+
+.phone4, .tel4 {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: -93px;
+}
+
+.money-six {
+    width: 187px;
+    height: 49px;
+    margin: 0 0 80px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background:  #FF7129;
+    
+
+    color:  #ffffff;
+    z-index: 1;
+}
+
+
 
 
 
